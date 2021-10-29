@@ -20,3 +20,5 @@ This is an alpha grade script, so use at your own risk. I created a Ubuntu Serve
     cd ahv-on-hyperv/
     chhmod +x patch.sh
     ./patch.sh
+
+[Blog Post](https://blog.superautomation.co.uk/2021/10/ahv-nested-inside-hyper-v.html)
