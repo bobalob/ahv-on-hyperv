@@ -2,6 +2,11 @@
 
 workingDir=$(pwd)
 
+if [ ! -f "$workingDir/iso/ce-2020.09.16.iso" ]; then
+    echo "ce-2020.09.16.iso does not exist in $workingDir/iso"
+    exit 1
+fi
+
 echo "unpacking iso"
 mkdir "$workingDir/tmpdir"
 mkdir "$workingDir/mntdir"
